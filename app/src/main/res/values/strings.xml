@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Score">Score</string>
+    <string name="Tic_Tac_Toe">Tic Tac Toe</string>
+    <string name="Status">Status</string>
+    <string name="Play_again">Play again</string>
+    <string name="Reset">Reset</string>
+    <string name="Start_game">Start Game</string>
+    <string name="Round">Round</string>
+    <string name="high_score">Highest Score</string>
+    <string name="Quit_game">Quit Game</string>
+</resources>

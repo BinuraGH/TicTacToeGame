@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagebkg_1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tic_tac_toe_game" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/berkshire_swash"
+        android:text="@string/Tic_Tac_Toe"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/play_offline_game_btn"
+        android:layout_width="240dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#0D8E12"
+        android:text="Play Offline"
+        android:textSize="24sp"
+        app:cornerRadius="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="Or"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/create_online_game_btn"
+        android:layout_width="240dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#0D8E12"
+        android:text="Create Online"
+        android:textSize="24sp"
+        app:cornerRadius="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="Or"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/game_id_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Enter Game ID"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cardview_dark_background" />
+
+    <Button
+        android:id="@+id/join_online_game_btn"
+        android:layout_width="240dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#0D8E12"
+        android:text="Join Online"
+        android:textSize="24sp"
+        app:cornerRadius="30dp" />
+</LinearLayout>

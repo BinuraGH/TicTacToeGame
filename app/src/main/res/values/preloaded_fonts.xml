@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alef_bold</item>
+        <item>@font/alegreya_bold</item>
+        <item>@font/andika_new_basic_bold</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bree_serif</item>
+    </array>
+</resources>
